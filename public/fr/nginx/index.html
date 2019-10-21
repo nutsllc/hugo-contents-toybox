@@ -1,0 +1,2201 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+  <head>
+  <meta charset="utf-8">
+  <title>Nginx</title>
+
+  <meta name="generator" content="Hugo 0.58.3" />
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://gethugothemes.com/plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://gethugothemes.com/plugins/themify-icons/themify-icons.css">
+  <!-- highlight -->
+  <link rel="stylesheet" href="https://gethugothemes.com/plugins/highlight/hybrid.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="https://gethugothemes.com/css/style.css">
+
+  <style>
+  :root{
+    --primary-color:#02007e;
+    --secondary-color:#f9f9f9;
+    --text-color:#636363;
+    --text-color-dark:#242738;
+    --white-color:#ffffff;
+  }
+  </style>
+
+<!-- Main Stylesheet -->
+
+<link rel="stylesheet" href="https://gethugothemes.com/css/style.min.css" integrity="" media="screen">
+
+<!-- jquiry -->
+<script src="https://gethugothemes.com/plugins/jquery/jquery-1.12.4.js"></script>
+
+<!-- jquary ui -->
+<script src="https://gethugothemes.com/plugins/jquery/jquery-ui.js"></script>
+
+<!--Favicon-->
+<link rel="icon" href="https://gethugothemes.com/images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  
+  <!-- navigation -->
+  <header class="shadow-bottom sticky-top bg-white">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="https://gethugothemes.com/fr">
+    
+    
+    
+    
+    <img class="img-fluid" src="https://gethugothemes.com/Dot" alt="Dot">
+    
+    
+  </a>
+  <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse text-center" id="navigation">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://gethugothemes.com/fr">Aidez-moi</a>
+      </li>
+      
+      
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://gethugothemes.com/fr/contact">contact</a>
+      </li>
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://gethugothemes.com/fr/faq">Faq</a>
+      </li>
+      
+      
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          les sujets
+        </a>
+        <div class="dropdown-menu" >
+          
+          <a class="dropdown-item" href="https://gethugothemes.com/fr/installation">Commencer</a>
+          
+          <a class="dropdown-item" href="https://gethugothemes.com/fr/billing-pricing">Compte et facturation</a>
+          
+          <a class="dropdown-item" href="https://gethugothemes.com/fr/features">Dépannage</a>
+          
+        </div>
+      </li>
+      
+      
+    </ul>
+    
+    <select id="select-language" onchange="location = this.value;">
+      
+      
+      
+      
+      
+      
+      
+      
+      <option id="en" value="/nginx/">En</option>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <option id="ja" value="/ja/nginx/">Ja</option>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <option id="fr" value="/fr/nginx/" selected>Fr
+      </option>
+      
+      
+      
+      
+    </select>
+  </div>
+</nav>
+    </div>
+  </header>
+  <!-- /navigation -->
+  
+  <div id="content">
+
+<!-- details page -->
+<section class="single section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="mb-5 bg-white p-4 sticky-top top-100">
+          <ul class="list-styled">
+            
+            
+            <a class="d-block h4 back-btn" href="https://gethugothemes.com/fr"></a>
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/dynamicproxy/" title="Dyanamic Proxy" class="sidelist
+  
+  
+  ">
+  <a href="/fr/dynamicproxy/">
+    Dyanamic Proxy
+  </a>
+  
+  
+  <ul>
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/dynamicproxy/requirments/" title="Requirments" class="sidelist
+  
+  
+  ">
+  <a href="/fr/dynamicproxy/requirments/">
+    Requirments
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/dynamicproxy/install/" title="Installation" class="sidelist
+  
+  
+  ">
+  <a href="/fr/dynamicproxy/install/">
+    Installation
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/dynamicproxy/configuration/" title="Configuration" class="sidelist
+  
+  
+  ">
+  <a href="/fr/dynamicproxy/configuration/">
+    Configuration
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/dynamicproxy/customization/" title="Customization" class="sidelist
+  
+  
+  ">
+  <a href="/fr/dynamicproxy/customization/">
+    Customization
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/dynamicproxy/elements/" title="Elements" class="sidelist
+  
+  
+  ">
+  <a href="/fr/dynamicproxy/elements/">
+    Elements
+  </a>
+  
+  
+
+
+    
+    
+  </ul>
+</li>
+
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/owncloud/" title="ownCloud" class="sidelist
+  
+  
+  ">
+  <a href="/fr/owncloud/">
+    ownCloud
+  </a>
+  
+  
+  <ul>
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/owncloud/requirments/" title="Requirments" class="sidelist
+  
+  
+  ">
+  <a href="/fr/owncloud/requirments/">
+    Requirments
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/owncloud/install/" title="Installation" class="sidelist
+  
+  
+  ">
+  <a href="/fr/owncloud/install/">
+    Installation
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/owncloud/configuration/" title="Configuration" class="sidelist
+  
+  
+  ">
+  <a href="/fr/owncloud/configuration/">
+    Configuration
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/owncloud/customization/" title="Customization" class="sidelist
+  
+  
+  ">
+  <a href="/fr/owncloud/customization/">
+    Customization
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/owncloud/elements/" title="Elements" class="sidelist
+  
+  
+  ">
+  <a href="/fr/owncloud/elements/">
+    Elements
+  </a>
+  
+  
+
+
+    
+    
+  </ul>
+</li>
+
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/wordpress/" title="WordPress" class="sidelist
+  
+  
+  ">
+  <a href="/fr/wordpress/">
+    WordPress
+  </a>
+  
+  
+  <ul>
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/wordpress/requirments/" title="Requirments" class="sidelist
+  
+  
+  ">
+  <a href="/fr/wordpress/requirments/">
+    Requirments
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/wordpress/install/" title="Installation" class="sidelist
+  
+  
+  ">
+  <a href="/fr/wordpress/install/">
+    Installation
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/wordpress/configuration/" title="Configuration" class="sidelist
+  
+  
+  ">
+  <a href="/fr/wordpress/configuration/">
+    Configuration
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/wordpress/customization/" title="Customization" class="sidelist
+  
+  
+  ">
+  <a href="/fr/wordpress/customization/">
+    Customization
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/wordpress/elements/" title="Elements" class="sidelist
+  
+  
+  ">
+  <a href="/fr/wordpress/elements/">
+    Elements
+  </a>
+  
+  
+
+
+    
+    
+  </ul>
+</li>
+
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/clair-analysis-tool/" title="Clair" class="sidelist
+  
+  
+  ">
+  <a href="/fr/clair-analysis-tool/">
+    Clair
+  </a>
+  
+  
+  <ul>
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/clair-analysis-tool/ownership/" title="Customer instructions for change of ownership" class="sidelist
+  
+  
+  ">
+  <a href="/fr/clair-analysis-tool/ownership/">
+    Customer instructions for change of ownership
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/clair-analysis-tool/bill/" title="How to pay your bill" class="sidelist
+  
+  
+  ">
+  <a href="/fr/clair-analysis-tool/bill/">
+    How to pay your bill
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/clair-analysis-tool/manage/" title="Manage My Sprint account" class="sidelist
+  
+  
+  ">
+  <a href="/fr/clair-analysis-tool/manage/">
+    Manage My Sprint account
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/clair-analysis-tool/payment/" title="Payment arrangements" class="sidelist
+  
+  
+  ">
+  <a href="/fr/clair-analysis-tool/payment/">
+    Payment arrangements
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/clair-analysis-tool/profile/" title="Understand the different levels of profile" class="sidelist
+  
+  
+  ">
+  <a href="/fr/clair-analysis-tool/profile/">
+    Understand the different levels of profile
+  </a>
+  
+  
+
+
+    
+    
+  </ul>
+</li>
+
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/dd/" title="DD" class="sidelist
+  
+  
+  ">
+  <a href="/fr/dd/">
+    DD
+  </a>
+  
+  
+  <ul>
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/dd/ownership/" title="Customer instructions for change of ownership" class="sidelist
+  
+  
+  ">
+  <a href="/fr/dd/ownership/">
+    Customer instructions for change of ownership
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/dd/bill/" title="How to pay your bill" class="sidelist
+  
+  
+  ">
+  <a href="/fr/dd/bill/">
+    How to pay your bill
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/dd/manage/" title="Manage My Sprint account" class="sidelist
+  
+  
+  ">
+  <a href="/fr/dd/manage/">
+    Manage My Sprint account
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/dd/payment/" title="Payment arrangements" class="sidelist
+  
+  
+  ">
+  <a href="/fr/dd/payment/">
+    Payment arrangements
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/dd/profile/" title="Understand the different levels of profile" class="sidelist
+  
+  
+  ">
+  <a href="/fr/dd/profile/">
+    Understand the different levels of profile
+  </a>
+  
+  
+
+
+    
+    
+  </ul>
+</li>
+
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/nginx/" title="Nginx" class="sidelist
+  parent
+  active
+  ">
+  <a href="/fr/nginx/">
+    Nginx
+  </a>
+  
+  
+  <ul>
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/nginx/linux/" title="Linux" class="sidelist
+  
+  
+  ">
+  <a href="/fr/nginx/linux/">
+    Linux
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/nginx/mac/" title="Mac OS" class="sidelist
+  
+  
+  ">
+  <a href="/fr/nginx/mac/">
+    Mac OS
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/nginx/routing/" title="Routing" class="sidelist
+  
+  
+  ">
+  <a href="/fr/nginx/routing/">
+    Routing
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/nginx/ubuntu/" title="Ubuntu" class="sidelist
+  
+  
+  ">
+  <a href="/fr/nginx/ubuntu/">
+    Ubuntu
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/nginx/windows/" title="Windows" class="sidelist
+  
+  
+  ">
+  <a href="/fr/nginx/windows/">
+    Windows
+  </a>
+  
+  
+
+
+    
+    
+  </ul>
+</li>
+
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/contact/" title="Contact" class="sidelist
+  
+  
+  ">
+  <a href="/fr/contact/">
+    Contact
+  </a>
+  
+  
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/faq/" title="Questions fréquemment posées" class="sidelist
+  
+  
+  ">
+  <a href="/fr/faq/">
+    Questions fréquemment posées
+  </a>
+  
+  
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/php_fpm/" title="PHP-FPM" class="sidelist
+  
+  
+  ">
+  <a href="/fr/php_fpm/">
+    PHP-FPM
+  </a>
+  
+  
+  <ul>
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/php_fpm/ownership/" title="Customer instructions for change of ownership" class="sidelist
+  
+  
+  ">
+  <a href="/fr/php_fpm/ownership/">
+    Customer instructions for change of ownership
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/php_fpm/bill/" title="How to pay your bill" class="sidelist
+  
+  
+  ">
+  <a href="/fr/php_fpm/bill/">
+    How to pay your bill
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/php_fpm/manage/" title="Manage My Sprint account" class="sidelist
+  
+  
+  ">
+  <a href="/fr/php_fpm/manage/">
+    Manage My Sprint account
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/php_fpm/payment/" title="Payment arrangements" class="sidelist
+  
+  
+  ">
+  <a href="/fr/php_fpm/payment/">
+    Payment arrangements
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/php_fpm/profile/" title="Understand the different levels of profile" class="sidelist
+  
+  
+  ">
+  <a href="/fr/php_fpm/profile/">
+    Understand the different levels of profile
+  </a>
+  
+  
+
+
+    
+    
+  </ul>
+</li>
+
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/mariadb/" title="MariaDB" class="sidelist
+  
+  
+  ">
+  <a href="/fr/mariadb/">
+    MariaDB
+  </a>
+  
+  
+  <ul>
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/mariadb/linux/" title="Linux" class="sidelist
+  
+  
+  ">
+  <a href="/fr/mariadb/linux/">
+    Linux
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/mariadb/mac/" title="Mac OS" class="sidelist
+  
+  
+  ">
+  <a href="/fr/mariadb/mac/">
+    Mac OS
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/mariadb/routing/" title="Routing" class="sidelist
+  
+  
+  ">
+  <a href="/fr/mariadb/routing/">
+    Routing
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/mariadb/ubuntu/" title="Ubuntu" class="sidelist
+  
+  
+  ">
+  <a href="/fr/mariadb/ubuntu/">
+    Ubuntu
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/fr/mariadb/windows/" title="Windows" class="sidelist
+  
+  
+  ">
+  <a href="/fr/mariadb/windows/">
+    Windows
+  </a>
+  
+  
+
+
+    
+    
+  </ul>
+</li>
+
+
+
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <div class="p-5 bg-white">
+          <h2 class="mb-5">Nginx</h2>
+          
+          <div class="content">
+
+<h1 id="nginx-on-docker">Nginx on Docker</h1>
+
+<p>A Dockerfile for deploying a <a href="https://nginx.org/">Nginx</a> using Docker container.</p>
+
+<p>This image has been extended <a href="https://hub.docker.com/_/nginx/">the official nginx image</a> which is maintained in the <a href="https://github.com/docker-library/nginx">docker-library/nginx</a> GitHub repository.</p>
+
+<p>This image is registered to the <a href="https://hub.docker.com/r/nutsllc/toybox-nginx/">Docker Hub</a> which is the official docker image registory.</p>
+
+<h2 id="main-feautuers">Main Feautuers</h2>
+
+<p>With this Docker image&hellip;</p>
+
+<ul>
+<li>By setting the GID and UID of the main process user in the container, it is possible to avoid the permission trouble.</li>
+<li>You can change the document root directory by environment variable.</li>
+<li>An easy to work with PHP-FPM. All you need to do is just to set environment variable.</li>
+</ul>
+
+<h2 id="usage">Usage</h2>
+
+<h3 id="the-simplest-way-to-run">The simplest way to run</h3>
+
+<p><code>docker run -it -p 8080:80 -d nutsllc/toybox-nginx</code></p>
+
+<h3 id="to-correspond-the-gid-uid-between-inside-and-outside-container">To correspond the gid/uid between inside and outside container</h3>
+
+<ul>
+<li>To find a specific user&rsquo;s UID and GID, at the shell prompt, enter: <code>id &lt;username&gt;</code></li>
+</ul>
+
+<p><code>docker run -it -p 8080:80 -e TOYBOX_GID=1000 -e TOYBOX_UID=1000 -d nutsllc/toybox-nginx</code></p>
+
+<h3 id="persistent-the-nginx-document-root-contents">Persistent the Nginx document root contents</h3>
+
+<pre><code class="language-bash">docker run -it -p 8080:80 -v $(pwd)/.data/docroot:/usr/share/nginx/html -d nutsllc/toybox-nginx
+</code></pre>
+
+<h3 id="persistent-the-nginx-config-files">Persistent the Nginx config files</h3>
+
+<pre><code class="language-bash">docker run -it -p 8080:80 -v $(pwd):/etc/nginx/conf.d -d nutsllc/toybox-nginx
+</code></pre>
+
+<h2 id="docker-compose-example">Docker Compose example</h2>
+
+<pre><code class="language-bash">toybox-nginx:
+	image: nutsllc/toybox-nginx:latest
+	environment:
+		- TOYBOX_UID=1000
+		- TOYBOX_GID=1000
+	volumes:
+		- &quot;./.data/docroot:/usr/share/nginx/html&quot;
+	ports:
+		- &quot;8080:80&quot;
+</code></pre>
+
+<h2 id="changing-the-document-root-directory">Changing the Document root directory</h2>
+
+<p>You would like to change document root directory, apply <code>DOCUMENT_ROOT</code> environment variable: <code>-e DOCUMENT_ROOT=/var/www/html</code>.</p>
+
+<p>A default document root directory is <code>/usr/share/nginx/html</code>.</p>
+
+<h2 id="using-with-php-fpm">Using with PHP-FPM</h2>
+
+<p>You would like to run the nginx instance with PHP-FPM, apply an environment variable <code>PHP_FPM_HOST</code> and add <code>volumes_from</code> to bind data container.</p>
+
+<p>Data container shuld join a <code>/usr/share/nginx/html</code> directory to Nginx container and PHP-FPM container.</p>
+
+<p>Example:</p>
+
+<pre><code class="language-bash">version: '2'
+services:
+	toybox-nginx:
+   		image: nutsllc/toybox-nginx:latest
+    	environment:
+	        - PHP_FPM_HOST=php-fpm:9000
+		volumes_from:
+			- data
+		ports:
+			- 8080:80
+
+	php-fpm:
+		image: php:5.6-fpm
+		volumes_from:
+			- data
+
+	data:
+		image: busybox
+		volumes:
+			- &quot;.data/docroot:/usr/share/nginx/html&quot;
+</code></pre>
+
+<h2 id="contributing">Contributing</h2>
+
+<p>We&rsquo;d love for you to contribute to this container. You can request new features by creating an <a href="https://github.com/nutsllc/toybox-nginx/issues">issue</a>, or submit a <a href="https://github.com/nutsllc/toybox-nginx/pulls">pull request</a> with your contribution.</p>
+</div>
+          
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 28 Dec 2018</p>
+          <nav class="pagination mt-3">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            <a class="nav nav-prev" href="https://gethugothemes.com/fr/dd/profile/"><i class="ti-arrow-left mr-2"></i>Understand the different levels of profile</a>
+            
+            
+            <a class="nav nav-next" href="https://gethugothemes.com/fr/nginx/linux/">Linux<i class="ti-arrow-right ml-2"></i></a>
+            
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /details page -->
+
+
+
+
+
+  </div><!-- footer -->
+<footer class="section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 text-md-left text-center">
+       <p>Les documents Hugo sont sous copyright © gethugothemes 2019.</p>
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline mb-3">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-facebook"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-vimeo-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-instagram"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- Bootstrap JS -->
+<script src="https://gethugothemes.com/plugins/bootstrap/bootstrap.min.js"></script>
+<!-- match-height JS -->
+<script src="https://gethugothemes.com/plugins/match-height/jquery.matchHeight-min.js"></script>
+<!-- highlight -->
+<script src="https://gethugothemes.com/plugins/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!-- Main Script -->
+
+<script src="https://gethugothemes.com/js/script.min.js"></script></body>
+
+</html>

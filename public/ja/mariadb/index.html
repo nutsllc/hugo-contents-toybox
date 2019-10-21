@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+  <head>
+  <meta charset="utf-8">
+  <title>MariaDB</title>
+
+  <meta name="generator" content="Hugo 0.58.3" />
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://gethugothemes.com/plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://gethugothemes.com/plugins/themify-icons/themify-icons.css">
+  <!-- highlight -->
+  <link rel="stylesheet" href="https://gethugothemes.com/plugins/highlight/hybrid.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="https://gethugothemes.com/css/style.css">
+
+  <style>
+  :root{
+    --primary-color:#02007e;
+    --secondary-color:#f9f9f9;
+    --text-color:#636363;
+    --text-color-dark:#242738;
+    --white-color:#ffffff;
+  }
+  </style>
+
+<!-- Main Stylesheet -->
+
+<link rel="stylesheet" href="https://gethugothemes.com/css/style.min.css" integrity="" media="screen">
+
+<!-- jquiry -->
+<script src="https://gethugothemes.com/plugins/jquery/jquery-1.12.4.js"></script>
+
+<!-- jquary ui -->
+<script src="https://gethugothemes.com/plugins/jquery/jquery-ui.js"></script>
+
+<!--Favicon-->
+<link rel="icon" href="https://gethugothemes.com/images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  
+  <!-- navigation -->
+  <header class="shadow-bottom sticky-top bg-white">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="https://gethugothemes.com/ja">
+    
+    
+    
+    Nuts Toybox
+    
+  </a>
+  <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse text-center" id="navigation">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://gethugothemes.com/ja">Home</a>
+      </li>
+      
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Applications
+        </a>
+        <div class="dropdown-menu" >
+          
+          <a class="dropdown-item" href="https://gethugothemes.com/nginx">nginx</a>
+          
+          <a class="dropdown-item" href="https://gethugothemes.com/php-pricing">PHP</a>
+          
+          <a class="dropdown-item" href="https://gethugothemes.com/hugo">Hugo</a>
+          
+        </div>
+      </li>
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://gethugothemes.com/faq">Faq</a>
+      </li>
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="https://gethugothemes.com/contact">contact</a>
+      </li>
+      
+      
+    </ul>
+    
+    <select id="select-language" onchange="location = this.value;">
+      
+      
+      
+      
+      
+      
+      
+      
+      <option id="en" value="/mariadb/">En</option>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <option id="ja" value="/ja/mariadb/" selected>Ja
+      </option>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <option id="fr" value="/fr/mariadb/">Fr</option>
+      
+      
+      
+      
+    </select>
+  </div>
+</nav>
+    </div>
+  </header>
+  <!-- /navigation -->
+  
+  <div id="content">
+
+<!-- details page -->
+<section class="single section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="mb-5 bg-white p-4 sticky-top top-100">
+          <ul class="list-styled">
+            
+            
+            <a class="d-block h4 back-btn" href="https://gethugothemes.com/ja"></a>
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/dynamicproxy/" title="Dynamic Proxy" class="sidelist
+  
+  
+  ">
+  <a href="/ja/dynamicproxy/">
+    Dynamic Proxy
+  </a>
+  
+  
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/owncloud/" title="ownCloud" class="sidelist
+  
+  
+  ">
+  <a href="/ja/owncloud/">
+    ownCloud
+  </a>
+  
+  
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/wordpress/" title="WordPress" class="sidelist
+  
+  
+  ">
+  <a href="/ja/wordpress/">
+    WordPress
+  </a>
+  
+  
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/clair-analysis-tool/" title="Clair" class="sidelist
+  
+  
+  ">
+  <a href="/ja/clair-analysis-tool/">
+    Clair
+  </a>
+  
+  
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/dd/" title="DD" class="sidelist
+  
+  
+  ">
+  <a href="/ja/dd/">
+    DD
+  </a>
+  
+  
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/nginx/" title="Nginx" class="sidelist
+  
+  
+  ">
+  <a href="/ja/nginx/">
+    Nginx
+  </a>
+  
+  
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/contact/" title="Contact" class="sidelist
+  
+  
+  ">
+  <a href="/ja/contact/">
+    Contact
+  </a>
+  
+  
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/faq/" title="Frequently Asked Questions" class="sidelist
+  
+  
+  ">
+  <a href="/ja/faq/">
+    Frequently Asked Questions
+  </a>
+  
+  
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/php_fpm/" title="PHP-FPM" class="sidelist
+  
+  
+  ">
+  <a href="/ja/php_fpm/">
+    PHP-FPM
+  </a>
+  
+  
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/mariadb/" title="MariaDB" class="sidelist
+  parent
+  active
+  ">
+  <a href="/ja/mariadb/">
+    MariaDB
+  </a>
+  
+  
+
+
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <div class="p-5 bg-white">
+          <h2 class="mb-5">MariaDB</h2>
+          
+          <div class="content">
+
+<h1 id="mariadb-on-docker">MariaDB on Docker</h1>
+
+<p>A Dockerfile for deploying a MariaDB using Docker container.</p>
+
+<p>This <code>toybox-mariadb</code> image has been extended <a href="https://hub.docker.com/_/mariadb/">the official mariadb image</a> which is maintained in the <a href="https://github.com/docker-library/mariadb/">docker-library/mariadb</a> GitHub repository.</p>
+
+<p>This image is registered to the <a href="https://hub.docker.com/r/nutsllc/toybox-mariadb/">Docker Hub</a> which is the official docker image registory.</p>
+
+<h2 id="usage">Usage</h2>
+
+<h3 id="start-a-mariadb-server-instance">Start a MariaDB server instance</h3>
+
+<p>Starting a MariaDB instance is simple:</p>
+
+<p><code>docker run --name mariadb -e MYSQL_ROOT_PASSWORD=root -d nutsllc/mariadb</code></p>
+
+<h3 id="connect-to-mariadb-from-an-application-in-another-docker-container">Connect to MariaDB from an application in another Docker container</h3>
+
+<p>Since MariaDB is intended as a drop-in replacement for MySQL, it can be used with many applications. This image exposes the standard MySQL port (3306), so container linking makes the MySQL instance available to other application containers. Start your application container like this in order to link it to the MySQL container:</p>
+
+<p><code>docker run --link mariadb -d application-image-name</code></p>
+
+<h3 id="connect-to-mariadb-from-the-mysql-command-line-client">Connect to MariaDB from the MySQL command line client</h3>
+
+<p>The following command goes into MariaDB container and runs the <a href="http://dev.mysql.com/doc/refman/5.7/en/mysql.html">MySQL Command-Line Tool</a>, allowing you to execute SQL statements:</p>
+
+<p><code>docker exec -it mariadb mysql -u root -proot</code></p>
+
+<h3 id="to-correspond-the-gid-uid-between-inside-and-outside-container">To correspond the gid/uid between inside and outside container</h3>
+
+<ul>
+<li>To find a specific user&rsquo;s UID and GID, at the shell prompt, enter: <code>id &lt;username&gt;</code></li>
+</ul>
+
+<p><code>docker run --name mariadb -e TOYBOX_GID=1000 -e TOYBOX_UID=1000 -e MYSQL_ROOT_PASSWORD=root mariadb nutsllc/mariadb</code></p>
+
+<h3 id="persistent-the-mariadb-data">Persistent the MariaDB data</h3>
+
+<p><code>docker run --name mariadb -v $(pwd)/.mariadb_data/:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root mariadb nutsllc/mariadb</code></p>
+
+<h2 id="environment-variables">Environment Variables</h2>
+
+<p>You can apply environment variables to adjust the configuration of the MariaDB instance as the same as the official MariaDB docker image.</p>
+
+<blockquote>
+<h3 id="mysql-root-password">MYSQL_ROOT_PASSWORD</h3>
+
+<p>This variable is mandatory and specifies the password that will be set for the MariaDB root superuser account. In the above example, it was set to my-secret-pw.</p>
+
+<h3 id="mysql-database">MYSQL_DATABASE</h3>
+
+<p>This variable is optional and allows you to specify the name of a database to be created on image startup. If a user/password was supplied (see below) then that user will be granted superuser access (corresponding to GRANT ALL) to this database.</p>
+
+<h3 id="mysql-user-mysql-password">MYSQL_USER, MYSQL_PASSWORD</h3>
+
+<p>These variables are optional, used in conjunction to create a new user and to set that user&rsquo;s password. This user will be granted superuser permissions (see above) for the database specified by the MYSQL_DATABASE variable. Both variables are required for a user to be created.</p>
+
+<p>Do note that there is no need to use this mechanism to create the root superuser, that user gets created by default with the password specified by the MYSQL_ROOT_PASSWORD variable.</p>
+
+<h3 id="mysql-allow-empty-password">MYSQL_ALLOW_EMPTY_PASSWORD</h3>
+
+<p>This is an optional variable. Set to yes to allow the container to be started with a blank password for the root user. NOTE: Setting this variable to yes is not recommended unless you really know what you are doing, since this will leave your MariaDB instance completely unprotected, allowing anyone to gain complete superuser access.</p>
+
+<h3 id="mysql-random-root-password">MYSQL_RANDOM_ROOT_PASSWORD</h3>
+
+<p>This is an optional variable. Set to yes to generate a random initial password for the root user (using pwgen). The generated root password will be printed to stdout (GENERATED ROOT PASSWORD: &hellip;..).</p>
+
+<h3 id="mysql-onetime-password">MYSQL_ONETIME_PASSWORD</h3>
+
+<p>Sets root (not the user specified in MYSQL_USER!) user as expired once init is complete, forcing a password change on first login. NOTE: This feature is supported on MySQL 5.6+ only. Using this option on MySQL 5.5 will throw an appropriate error during initialization.</p>
+</blockquote>
+
+<h2 id="contributing">Contributing</h2>
+
+<p>We&rsquo;d love for you to contribute to this container. You can request new features by creating an <a href="https://github.com/nutsllc/toybox-apache2/issues">issue</a>, or submit a <a href="https://github.com/nutsllc/toybox-apache2/pulls">pull request</a> with your contribution.</p>
+</div>
+          
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 28 Jan 2018</p>
+          <nav class="pagination mt-3">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+
+            
+            <a class="nav nav-prev" href="https://gethugothemes.com/ja/php_fpm/"><i class="ti-arrow-left mr-2"></i>PHP-FPM</a>
+            
+            
+            <a class="nav nav-next" href="https://gethugothemes.com/ja/dynamicproxy/">Dynamic Proxy<i class="ti-arrow-right ml-2"></i></a>
+            
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /details page -->
+
+
+
+
+
+  </div><!-- footer -->
+<footer class="section bg-gray pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 text-md-left text-center">
+       <p>The Nuts Toybox are copyright © Nuts, LLC 2019.</p>
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline mb-3">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-facebook"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-vimeo-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i class="ti-instagram"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- Bootstrap JS -->
+<script src="https://gethugothemes.com/plugins/bootstrap/bootstrap.min.js"></script>
+<!-- match-height JS -->
+<script src="https://gethugothemes.com/plugins/match-height/jquery.matchHeight-min.js"></script>
+<!-- highlight -->
+<script src="https://gethugothemes.com/plugins/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!-- Main Script -->
+
+<script src="https://gethugothemes.com/js/script.min.js"></script></body>
+
+</html>

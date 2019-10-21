@@ -1,0 +1,11 @@
+.top-content {
+    padding: 6rem;
+    margin-bottom: 5rem;
+}
+.top-content > h2 {
+    margin-bottom: 1.5rem !important
+}
+.top-content > p {
+    font-size: 1.1rem;
+}
+
