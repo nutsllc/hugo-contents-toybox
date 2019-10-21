@@ -2,8 +2,8 @@
 title: "WordPress"
 date: 2018-12-29T11:02:05+06:00
 icon: "ti-wordpress"
-description: "Blog System"
-description2: "Nginx + PHP-FPM + MariaDB"
+description: "CMS システム"
+description2: ""
 type : "applications"
 ---
 

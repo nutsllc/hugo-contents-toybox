@@ -2,7 +2,7 @@
 <html lang="ja-JP">
   <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Nuts Toybox</title>
 
   <meta name="generator" content="Hugo 0.58.3" />
 
@@ -77,15 +77,33 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">
-          Applications
+          Application
         </a>
         <div class="dropdown-menu" >
           
-          <a class="dropdown-item" href="https://gethugothemes.com/nginx">nginx</a>
+          <a class="dropdown-item" href="https://gethugothemes.com/ja/dynamicproxy/">Dynamic Proxy</a>
           
-          <a class="dropdown-item" href="https://gethugothemes.com/php-pricing">PHP</a>
+          <a class="dropdown-item" href="https://gethugothemes.com/ja/wordpress/">WordPress</a>
           
-          <a class="dropdown-item" href="https://gethugothemes.com/hugo">Hugo</a>
+          <a class="dropdown-item" href="https://gethugothemes.com/ja/hugo">Hugo</a>
+          
+        </div>
+      </li>
+      
+      
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Server
+        </a>
+        <div class="dropdown-menu" >
+          
+          <a class="dropdown-item" href="https://gethugothemes.com/ja/nginx/">Nginx</a>
+          
+          <a class="dropdown-item" href="https://gethugothemes.com/ja/phpfpm/">PHP-FPM</a>
+          
+          <a class="dropdown-item" href="https://gethugothemes.com/ja/mariadb/">MariaDB</a>
           
         </div>
       </li>
@@ -163,99 +181,12 @@
     <div class="col-lg-8 text-center mx-auto">
     <h1 class="text-white mb-3">Nuts Toybox</h1>
     <p class="text-white mb-4">Easy and first to run variety of the Docker container</p>
-        <div class="position-relative">
-        <input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms">
         
-        <script>
-            $(function() {
-            var projects = [
-                
-                {
-                    value: "Dynamic Proxy",
-                    label: "Dynamic Proxy",
-                    url:"https:\/\/gethugothemes.com\/ja\/dynamicproxy\/"
-                },
-                
-                {
-                    value: "ownCloud",
-                    label: "ownCloud",
-                    url:"https:\/\/gethugothemes.com\/ja\/owncloud\/"
-                },
-                
-                {
-                    value: "WordPress",
-                    label: "WordPress",
-                    url:"https:\/\/gethugothemes.com\/ja\/wordpress\/"
-                },
-                
-                {
-                    value: "Clair",
-                    label: "Clair",
-                    url:"https:\/\/gethugothemes.com\/ja\/clair-analysis-tool\/"
-                },
-                
-                {
-                    value: "DD",
-                    label: "DD",
-                    url:"https:\/\/gethugothemes.com\/ja\/dd\/"
-                },
-                
-                {
-                    value: "Nginx",
-                    label: "Nginx",
-                    url:"https:\/\/gethugothemes.com\/ja\/nginx\/"
-                },
-                
-                {
-                    value: "Contact",
-                    label: "Contact",
-                    url:"https:\/\/gethugothemes.com\/ja\/contact\/"
-                },
-                
-                {
-                    value: "Frequently Asked Questions",
-                    label: "Frequently Asked Questions",
-                    url:"https:\/\/gethugothemes.com\/ja\/faq\/"
-                },
-                
-                {
-                    value: "PHP-FPM",
-                    label: "PHP-FPM",
-                    url:"https:\/\/gethugothemes.com\/ja\/php_fpm\/"
-                },
-                
-                {
-                    value: "MariaDB",
-                    label: "MariaDB",
-                    url:"https:\/\/gethugothemes.com\/ja\/mariadb\/"
-                },
-                
-            ];
-            $( "#search" ).autocomplete({
-                minLength: 0,
-                source: projects,
-                focus: function( event, ui ) {
-                    $( "#search" ).val( ui.item.label );
-                    return false;
-                },
-                select: function( event, ui ) {
-                    $( "#search" ).val( ui.item.label );
-                    $( "#project-id" ).val( ui.item.value );
-                    return false;
-                }
-            })
-            .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
-                return $( "<li>" )
-                .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.label + "</a>" )
-                .appendTo( ul );
-            };
-            });
-        </script>
-        </div>
     </div>
     </div>
 </div>
 <!-- /banner -->
+
   </header>
   <!-- /header -->
   
@@ -272,8 +203,8 @@
         <!-- application-item -->
         <div class="col-12 text-center">
             
-                <h2 class="section-title">Application Containers</h2>
-                <p>アプリケーションサービスを提供するコンテナ</p>
+                <h2 class="section-title">Application</h2>
+                <p></p>
             
         </div>
         
@@ -281,15 +212,8 @@
           <a href="https://gethugothemes.com/ja/dynamicproxy/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
             <i class="ti-panel icon text-primary d-block mb-4"></i>
             <h3 class="mb-3 mt-0">Dynamic Proxy</h3>
-            <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
-          </a>
-        </div>
-        
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <a href="https://gethugothemes.com/ja/owncloud/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
-            <i class="ti-cloud icon text-primary d-block mb-4"></i>
-            <h3 class="mb-3 mt-0">ownCloud</h3>
-            <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+            <p class="mb-0">Dynamic proxy with SSL</p>
+            <p class="mb-0">(Nginx &#43; Let&#39;s Encrypt &#43; docker-gen)</p>
           </a>
         </div>
         
@@ -297,7 +221,17 @@
           <a href="https://gethugothemes.com/ja/wordpress/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
             <i class="ti-wordpress icon text-primary d-block mb-4"></i>
             <h3 class="mb-3 mt-0">WordPress</h3>
-            <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+            <p class="mb-0">CMS System</p>
+            <p class="mb-0">Nginx &#43; PHP-FPM &#43; MariaDB</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <a href="https://gethugothemes.com/ja/hugo/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-package icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">HUGO</h3>
+            <p class="mb-0">Static web site generator</p>
+            <p class="mb-0"></p>
           </a>
         </div>
         
@@ -305,8 +239,8 @@
         <!-- application-item -->
         <div class="col-12 text-center">
             
-                <h2 class="section-title">Server Container</h2>
-                <p>単体のサーバー機能を持ったコンテナ</p>
+                <h2 class="section-title">Server</h2>
+                <p></p>
             
         </div>
         
@@ -314,15 +248,15 @@
           <a href="https://gethugothemes.com/ja/nginx/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
             <i class="ti-server icon text-primary d-block mb-4"></i>
             <h3 class="mb-3 mt-0">Nginx</h3>
-            <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+            <p class="mb-0">HTTP Server</p>
           </a>
         </div>
         
         <div class="col-lg-4 col-sm-6 mb-4">
-          <a href="https://gethugothemes.com/ja/php_fpm/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+          <a href="https://gethugothemes.com/ja/phpfpm/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
             <i class="ti-server icon text-primary d-block mb-4"></i>
             <h3 class="mb-3 mt-0">PHP-FPM</h3>
-            <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+            <p class="mb-0">FirstCGI for PHP</p>
           </a>
         </div>
         
@@ -330,7 +264,7 @@
           <a href="https://gethugothemes.com/ja/mariadb/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
             <i class="ti-server icon text-primary d-block mb-4"></i>
             <h3 class="mb-3 mt-0">MariaDB</h3>
-            <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+            <p class="mb-0">Database Server</p>
           </a>
         </div>
         
@@ -338,8 +272,8 @@
         <!-- tool-item -->
         <div class="col-12 text-center">
             
-                <h2 class="section-title">Container Tools</h2>
-                <p>Docker を便利に利用するためのツール</p>
+                <h2 class="section-title">Tool</h2>
+                <p></p>
             
         </div>
         
@@ -347,7 +281,7 @@
           <a href="https://gethugothemes.com/ja/clair-analysis-tool/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
             <i class="ti-eye icon text-primary d-block mb-4"></i>
             <h3 class="mb-3 mt-0">Clair</h3>
-            <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+            <p class="mb-0">Analytics tool for Docker container</p>
           </a>
         </div>
         
@@ -355,7 +289,7 @@
           <a href="https://gethugothemes.com/ja/dd/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
             <i class="ti-credit-card icon text-primary d-block mb-4"></i>
             <h3 class="mb-3 mt-0">DD</h3>
-            <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+            <p class="mb-0">Docker control tool</p>
           </a>
         </div>
         

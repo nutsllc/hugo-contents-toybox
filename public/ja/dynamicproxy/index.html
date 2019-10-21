@@ -76,15 +76,33 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">
-          Applications
+          Application
         </a>
         <div class="dropdown-menu" >
           
-          <a class="dropdown-item" href="https://gethugothemes.com/nginx">nginx</a>
+          <a class="dropdown-item" href="https://gethugothemes.com/ja/dynamicproxy/">Dynamic Proxy</a>
           
-          <a class="dropdown-item" href="https://gethugothemes.com/php-pricing">PHP</a>
+          <a class="dropdown-item" href="https://gethugothemes.com/ja/wordpress/">WordPress</a>
           
-          <a class="dropdown-item" href="https://gethugothemes.com/hugo">Hugo</a>
+          <a class="dropdown-item" href="https://gethugothemes.com/ja/hugo">Hugo</a>
+          
+        </div>
+      </li>
+      
+      
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Server
+        </a>
+        <div class="dropdown-menu" >
+          
+          <a class="dropdown-item" href="https://gethugothemes.com/ja/nginx/">Nginx</a>
+          
+          <a class="dropdown-item" href="https://gethugothemes.com/ja/phpfpm/">PHP-FPM</a>
+          
+          <a class="dropdown-item" href="https://gethugothemes.com/ja/mariadb/">MariaDB</a>
           
         </div>
       </li>
@@ -185,23 +203,55 @@
   </a>
   
   
+  <ul>
+    
+    
+    
+    
+    
+
+    
+    
+    
 
 
-            
-            
 
 
-
-
-<li data-nav-id="https://gethugothemes.com/ja/owncloud/" title="ownCloud" class="sidelist
+<li data-nav-id="https://gethugothemes.com/ja/dynamicproxy/overview/" title="Overview" class="sidelist
   
   
   ">
-  <a href="/ja/owncloud/">
-    ownCloud
+  <a href="/ja/dynamicproxy/overview/">
+    Overview
   </a>
   
   
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/dynamicproxy/quickstart/" title="Quick Start" class="sidelist
+  
+  
+  ">
+  <a href="/ja/dynamicproxy/quickstart/">
+    Quick Start
+  </a>
+  
+  
+
+
+    
+    
+  </ul>
+</li>
+
 
 
             
@@ -219,6 +269,74 @@
   </a>
   
   
+  <ul>
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/wordpress/overview/" title="Overview" class="sidelist
+  
+  
+  ">
+  <a href="/ja/wordpress/overview/">
+    Overview
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/wordpress/quickstart/" title="Quick Start" class="sidelist
+  
+  
+  ">
+  <a href="/ja/wordpress/quickstart/">
+    Quick Start
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/wordpress/settings/" title="Settings" class="sidelist
+  
+  
+  ">
+  <a href="/ja/wordpress/settings/">
+    Settings
+  </a>
+  
+  
+
+
+    
+    
+  </ul>
+</li>
+
 
 
             
@@ -312,11 +430,77 @@
 
 
 
-<li data-nav-id="https://gethugothemes.com/ja/php_fpm/" title="PHP-FPM" class="sidelist
+<li data-nav-id="https://gethugothemes.com/ja/hugo/" title="HUGO" class="sidelist
   
   
   ">
-  <a href="/ja/php_fpm/">
+  <a href="/ja/hugo/">
+    HUGO
+  </a>
+  
+  
+  <ul>
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/hugo/overview/" title="Overview" class="sidelist
+  
+  
+  ">
+  <a href="/ja/hugo/overview/">
+    Overview
+  </a>
+  
+  
+
+
+    
+    
+    
+    
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/hugo/quickstart/" title="Quick Start" class="sidelist
+  
+  
+  ">
+  <a href="/ja/hugo/quickstart/">
+    Quick Start
+  </a>
+  
+  
+
+
+    
+    
+  </ul>
+</li>
+
+
+
+            
+            
+
+
+
+
+<li data-nav-id="https://gethugothemes.com/ja/phpfpm/" title="PHP-FPM" class="sidelist
+  
+  
+  ">
+  <a href="/ja/phpfpm/">
     PHP-FPM
   </a>
   
@@ -350,7 +534,12 @@
           
           <div class="content">
 
-<h1 id="toybox-proxy">Toybox Proxy</h1>
+<h3 id="index">INDEX</h3>
+
+<ul>
+<li>Overview</li>
+<li>Quick start</li>
+</ul>
 
 <p>Running Docker containers SSL dynamic proxy (Nginx).</p>
 
@@ -359,44 +548,6 @@
 <ul>
 <li>docker</li>
 <li>docker-compose</li>
-</ul>
-
-<h2 id="getting-started">Getting started</h2>
-
-<h3 id="installation">Installation</h3>
-
-<p>Download the latest release of toybox-proxy.</p>
-
-<pre><code>$ cd /path/to/download
-$ git clone https://github.com/nutsllc/toybox-proxy.git
-</code></pre>
-
-<h3 id="settings">Settings</h3>
-
-<p>Copy <code>path/to/toybox-proxy/bin/.env.example</code> to the same directory as <code>.env</code>.
-Edit <code>.env</code> file.  example below.</p>
-
-<pre><code class="language-bash">PROXY_HOME=/path/to/toybox-proxy
-TOYBOX_UID=1000
-TOYBOX_GID=1000
-
-PROXY_CACHE=true
-</code></pre>
-
-<h3 id="usage">Usage</h3>
-
-<h4 id="start-proxy-container">Start Proxy Container</h4>
-
-<pre><code class="language-bash">$ cd tobox-proxy/bin
-$ docker-compose up -d
-</code></pre>
-
-<p>It will start three containers. Nginx, docker-gen and letsencrypt-nginx-proxy-companion container.</p>
-
-<ul>
-<li>Nginx: Proxy Server</li>
-<li>docker-gen: Generate nginx conf files dynamically.</li>
-<li>letsencrypt-nginx-proxy-companion: create and update TLS cirtifications.</li>
 </ul>
 
 <h2 id="license">License</h2>
@@ -439,23 +590,6 @@ $ docker-compose up -d
             
             
             
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
             
             
 
@@ -502,7 +636,6 @@ $ docker-compose up -d
             
             
             
-
             
             
             
@@ -510,6 +643,9 @@ $ docker-compose up -d
             
             
             
+            
+            
+
             
             
             
@@ -566,6 +702,139 @@ $ docker-compose up -d
             
             
             
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
             
             
@@ -596,10 +865,10 @@ $ docker-compose up -d
             
 
             
-            <a class="nav nav-prev" href="https://gethugothemes.com/ja/"><i class="ti-arrow-left mr-2"></i></a>
+            <a class="nav nav-prev" href="https://gethugothemes.com/ja/"><i class="ti-arrow-left mr-2"></i>Nuts Toybox</a>
             
             
-            <a class="nav nav-next" href="https://gethugothemes.com/ja/owncloud/">ownCloud<i class="ti-arrow-right ml-2"></i></a>
+            <a class="nav nav-next" href="https://gethugothemes.com/ja/dynamicproxy/overview/">Overview<i class="ti-arrow-right ml-2"></i></a>
             
           </nav>
         </div>

@@ -2,7 +2,7 @@
 title: "MariaDB"
 date: 2018-01-28T11:02:05+06:00
 icon: "ti-server"
-description: "Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet"
+description: "DB サーバー"
 type : "server"
 ---
 

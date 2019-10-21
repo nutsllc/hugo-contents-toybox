@@ -28,49 +28,91 @@ whiteColor = "#ffffff"
     # navigation
     [Languages.ja.menu]
 
-      # Dropdown menu
+      # Dropdown menu - for Applications
       [[Languages.ja.menu.main]]
         weight = 1
-        name = "Applications"
+        name = "Application"
         url = "pages"
         hasChildren = true
 
           [[Languages.ja.menu.main]]
-          parent = "Applications"
-          name = "Dynamic Proxy"
+          parent = "Application"
+          name = "Dynamic Reverse Proxy"
           url = "ja/dynamicproxy/"
           weight = 2
 
           [[Languages.ja.menu.main]]
-          parent = "Applications"
-#          name = "Billing and Pricing"
+          parent = "Application"
           name = "WordPress"
           url = "ja/wordpress/"
           weight = 3
 
           [[Languages.ja.menu.main]]
-          parent = "Applications"
+          parent = "Application"
           name = "Hugo"
           url = "ja/hugo"
           weight = 4
 
+      # Dropdown menu - for Servers
       [[Languages.ja.menu.main]]
-        weight = 4
-        name = "Faq"
-        url = "faq"
+        weight = 1
+        name = "Server"
+        url = "pages"
+        hasChildren = true
 
+          [[Languages.ja.menu.main]]
+          parent = "Server"
+          name = "Nginx"
+          url = "ja/nginx/"
+          weight = 2
+
+          [[Languages.ja.menu.main]]
+          parent = "Server"
+          name = "PHP-FPM"
+          url = "ja/phpfpm/"
+          weight = 3
+
+          [[Languages.ja.menu.main]]
+          parent = "Server"
+          name = "MariaDB"
+          url = "ja/mariadb/"
+          weight = 4
+
+      # Dropdown menu - for Tools
       [[Languages.ja.menu.main]]
-        weight = 6
-        name = "contact"
-        url = "contact"
+        weight = 1
+        name = "tool"
+        url = "pages"
+        hasChildren = true
+
+          [[Languages.ja.menu.main]]
+          parent = "tool"
+          name = "Clair"
+          url = "ja/clair-analysis-tool/"
+          weight = 2
+
+          [[Languages.ja.menu.main]]
+          parent = "tool"
+          name = "DD"
+          url = "ja/dd/"
+          weight = 3
+
+#      # Other menus
+#      [[Languages.ja.menu.main]]
+#        weight = 4
+#        name = "Faq"
+#        url = "faq"
+#
+#      [[Languages.ja.menu.main]]
+#        weight = 6
+#        name = "contact"
+#        url = "contact"
 
 
 
 
     # banner
     [Languages.ja.params.banner]
-#      title = "Support Center & Knowledge base"
-#      description = "Find advice and answers from our support team fast or get in touch"
       title = "Nuts Toybox"
       description = "Easy and first to run variety of the Docker container"
       image = "images/banner.jpg"
@@ -82,16 +124,16 @@ whiteColor = "#ffffff"
       description = ""
 
     [Languages.ja.params.topics.application]
-      title = "Application Containers"
-      description = "アプリケーションサービスを提供するコンテナ"
+      title = "WEB Application"
+      description = ""
 
     [Languages.ja.params.topics.server]
-      title = "Server Container"
-      description = "単体のサーバー機能を持ったコンテナ"
+      title = "Server"
+      description = ""
 
     [Languages.ja.params.topics.tool]
-      title = "Container Tools"
-      description = "Docker を便利に利用するためのツール"
+      title = "Tool"
+      description = ""
 
     [Languages.ja.params.topics.questions]
       title = ""
@@ -148,49 +190,80 @@ whiteColor = "#ffffff"
     # navigation
     [Languages.en.menu]
 
-      # Dropdown menu
+      # Dropdown menu - for Applications
       [[Languages.en.menu.main]]
         weight = 1
-        name = "Applications"
+        name = "WEB Application"
         url = "pages"
         hasChildren = true
 
           [[Languages.en.menu.main]]
-          parent = "Applications"
-          name = "nginx"
-          url = "nginx"
+          parent = "Application"
+          name = "Dynamic Reverse Proxy"
+          url = "en/dynamicproxy/"
           weight = 2
 
           [[Languages.en.menu.main]]
-          parent = "Applications"
-#          name = "Billing and Pricing"
-          name = "PHP"
-          url = "php-pricing"
+          parent = "Application"
+          name = "WordPress"
+          url = "en/wordpress/"
           weight = 3
 
           [[Languages.en.menu.main]]
-          parent = "Applications"
+          parent = "Application"
           name = "Hugo"
-          url = "hugo"
+          url = "en/hugo"
           weight = 4
 
+      # Dropdown menu - for Servers
       [[Languages.en.menu.main]]
-        weight = 4
-        name = "Faq"
-        url = "faq"
+        weight = 1
+        name = "Server"
+        url = "pages"
+        hasChildren = true
 
+          [[Languages.en.menu.main]]
+          parent = "Server"
+          name = "Nginx"
+          url = "en/nginx/"
+          weight = 2
+
+          [[Languages.en.menu.main]]
+          parent = "Server"
+          name = "PHP-FPM"
+          url = "en/phpfpm/"
+          weight = 3
+
+          [[Languages.en.menu.main]]
+          parent = "Server"
+          name = "MariaDB"
+          url = "en/mariadb/"
+          weight = 4
+
+      # Dropdown menu - for Tools
       [[Languages.en.menu.main]]
-        weight = 6
-        name = "contact"
-        url = "contact"
+        weight = 1
+        name = "tool"
+        url = "pages"
+        hasChildren = true
+
+          [[Languages.en.menu.main]]
+          parent = "tool"
+          name = "Clair"
+          url = "en/clair-analysis-tool/"
+          weight = 2
+
+          [[Languages.en.menu.main]]
+          parent = "tool"
+          name = "DD"
+          url = "en/dd/"
+          weight = 3
 
 
 
 
     # banner
     [Languages.en.params.banner]
-#      title = "Support Center & Knowledge base"
-#      description = "Find advice and answers from our support team fast or get in touch"
       title = "Nuts Toybox"
       description = "Easy and first to run variety of the Docker container"
       image = "images/banner.jpg"
@@ -234,91 +307,91 @@ whiteColor = "#ffffff"
 
 
 
-  # Franch Language
-  [Languages.fr]
-  languageName = "Fr"
-  weight = 3
-  languageCode = "fr-fr"
-  title = "Dot"
-  dateFormat = "2 January 2006"
-  home = "Aidez-moi"
-  logo = "Dot"
-  copyright = "Les documents Hugo sont sous copyright © gethugothemes 2019."
-
-    # navigation
-    [Languages.fr.menu]
-
-      [[Languages.fr.menu.main]]
-        weight = 2
-        name = "Faq"
-        url = "fr/faq"
-
-      [[Languages.fr.menu.main]]
-        weight = 2
-        name = "contact"
-        url = "fr/contact"
-
-      # Dropdown menu
-      [[Languages.fr.menu.main]]
-        weight = 2
-        name = "les sujets"
-        hasChildren = true
-
-          [[Languages.fr.menu.main]]
-          parent = "les sujets"
-          name = "Commencer"
-          url = "fr/installation"
-          weight = 2
-
-          [[Languages.fr.menu.main]]
-          parent = "les sujets"
-          name = "Compte et facturation"
-          url = "fr/billing-pricing"
-          weight = 3
-
-          [[Languages.fr.menu.main]]
-          parent = "les sujets"
-          name = "Dépannage"
-          url = "fr/features"
-          weight = 4
-
-    # banner
-    [Languages.fr.params.banner]
-      title = "Comment pouvons nous aider?"
-      description = "Trouvez rapidement des conseils et des réponses auprès de notre équipe d'assistance ou contactez-nous."
-      image = "images/banner.jpg"
-      placeholder = "Have a question? Just ask here or enter terms"
-
-    # pages
-    [Languages.fr.params.pages]
-      title = "Parcourir tous les sujets"
-
-    # call to action
-    [Languages.fr.params.cta]
-      enable = true
-      title = "Vous n'avez pas trouvé de réponse à votre question?"
-      description = "Contactez-nous pour plus de détails sur les services supplémentaires et la tarification du travail personnalisé"
-      btnText = "Contactez nous"
-      btnURL = "fr/contact/"
-
-    # contact
-    [Languages.fr.params.contact]
-      title = "Vous avez des questions"
-      content = "Envoyez le formulaire et confirmez votre adresse e-mail à l'adresse <a class='text-primary' href='https://formspree.io/'>Formspree</a> Ajoutez ensuite les lignes suivantes pour contacter la page YAML Front Matter."
-
-    # footer social icon
-    [[Languages.fr.socialIcon]]
-      icon = "ti-facebook"
-      linkURL = "#"
-
-    [[Languages.fr.socialIcon]]
-      icon = "ti-twitter-alt"
-      linkURL = "#"
-
-    [[Languages.fr.socialIcon]]
-      icon = "ti-vimeo-alt"
-      linkURL = "#"
-
-    [[Languages.fr.socialIcon]]
-      icon = "ti-instagram"
-      linkURL = "#"
+#  # Franch Language
+#  [Languages.fr]
+#  languageName = "Fr"
+#  weight = 3
+#  languageCode = "fr-fr"
+#  title = "Dot"
+#  dateFormat = "2 January 2006"
+#  home = "Aidez-moi"
+#  logo = "Dot"
+#  copyright = "Les documents Hugo sont sous copyright © gethugothemes 2019."
+#
+#    # navigation
+#    [Languages.fr.menu]
+#
+#      [[Languages.fr.menu.main]]
+#        weight = 2
+#        name = "Faq"
+#        url = "fr/faq"
+#
+#      [[Languages.fr.menu.main]]
+#        weight = 2
+#        name = "contact"
+#        url = "fr/contact"
+#
+#      # Dropdown menu
+#      [[Languages.fr.menu.main]]
+#        weight = 2
+#        name = "les sujets"
+#        hasChildren = true
+#
+#          [[Languages.fr.menu.main]]
+#          parent = "les sujets"
+#          name = "Commencer"
+#          url = "fr/installation"
+#          weight = 2
+#
+#          [[Languages.fr.menu.main]]
+#          parent = "les sujets"
+#          name = "Compte et facturation"
+#          url = "fr/billing-pricing"
+#          weight = 3
+#
+#          [[Languages.fr.menu.main]]
+#          parent = "les sujets"
+#          name = "Dépannage"
+#          url = "fr/features"
+#          weight = 4
+#
+#    # banner
+#    [Languages.fr.params.banner]
+#      title = "Comment pouvons nous aider?"
+#      description = "Trouvez rapidement des conseils et des réponses auprès de notre équipe d'assistance ou contactez-nous."
+#      image = "images/banner.jpg"
+#      placeholder = "Have a question? Just ask here or enter terms"
+#
+#    # pages
+#    [Languages.fr.params.pages]
+#      title = "Parcourir tous les sujets"
+#
+#    # call to action
+#    [Languages.fr.params.cta]
+#      enable = true
+#      title = "Vous n'avez pas trouvé de réponse à votre question?"
+#      description = "Contactez-nous pour plus de détails sur les services supplémentaires et la tarification du travail personnalisé"
+#      btnText = "Contactez nous"
+#      btnURL = "fr/contact/"
+#
+#    # contact
+#    [Languages.fr.params.contact]
+#      title = "Vous avez des questions"
+#      content = "Envoyez le formulaire et confirmez votre adresse e-mail à l'adresse <a class='text-primary' href='https://formspree.io/'>Formspree</a> Ajoutez ensuite les lignes suivantes pour contacter la page YAML Front Matter."
+#
+#    # footer social icon
+#    [[Languages.fr.socialIcon]]
+#      icon = "ti-facebook"
+#      linkURL = "#"
+#
+#    [[Languages.fr.socialIcon]]
+#      icon = "ti-twitter-alt"
+#      linkURL = "#"
+#
+#    [[Languages.fr.socialIcon]]
+#      icon = "ti-vimeo-alt"
+#      linkURL = "#"
+#
+#    [[Languages.fr.socialIcon]]
+#      icon = "ti-instagram"
+#      linkURL = "#"

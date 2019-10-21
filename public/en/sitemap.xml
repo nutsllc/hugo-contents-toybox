@@ -3,276 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gethugothemes.com/dynamicproxy/requirments/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/dynamicproxy/requirments/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/dynamicproxy/requirments/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/owncloud/requirments/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/owncloud/requirments/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/owncloud/requirments/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/wordpress/requirments/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/wordpress/requirments/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/wordpress/requirments/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/dynamicproxy/install/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/dynamicproxy/install/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/dynamicproxy/install/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/owncloud/install/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/owncloud/install/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/owncloud/install/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/wordpress/install/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/wordpress/install/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/wordpress/install/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/dynamicproxy/configuration/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/dynamicproxy/configuration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/dynamicproxy/configuration/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/owncloud/configuration/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/owncloud/configuration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/owncloud/configuration/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/wordpress/configuration/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/wordpress/configuration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/wordpress/configuration/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/dynamicproxy/customization/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/dynamicproxy/customization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/dynamicproxy/customization/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/owncloud/customization/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/owncloud/customization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/owncloud/customization/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/wordpress/customization/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/wordpress/customization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/wordpress/customization/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/dynamicproxy/elements/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/dynamicproxy/elements/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/dynamicproxy/elements/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/owncloud/elements/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/owncloud/elements/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/owncloud/elements/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/wordpress/elements/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/wordpress/elements/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/wordpress/elements/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/clair-analysis-tool/ownership/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/clair-analysis-tool/ownership/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/clair-analysis-tool/ownership/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/dd/ownership/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/dd/ownership/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/dd/ownership/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/php_fpm/ownership/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/php_fpm/ownership/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/php_fpm/ownership/"
-                />
-  </url>
-  
-  <url>
     <loc>https://gethugothemes.com/dynamicproxy/</loc>
     <lastmod>2018-12-29T11:02:05+06:00</lastmod>
     <xhtml:link
@@ -293,352 +23,22 @@
   </url>
   
   <url>
-    <loc>https://gethugothemes.com/clair-analysis-tool/bill/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/clair-analysis-tool/bill/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/clair-analysis-tool/bill/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/dd/bill/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/dd/bill/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/dd/bill/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/php_fpm/bill/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/php_fpm/bill/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/php_fpm/bill/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/mariadb/linux/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/mariadb/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/mariadb/linux/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/nginx/linux/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/nginx/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/nginx/linux/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/mariadb/mac/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/mariadb/mac/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/mariadb/mac/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/nginx/mac/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/nginx/mac/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/nginx/mac/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/clair-analysis-tool/manage/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/clair-analysis-tool/manage/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/clair-analysis-tool/manage/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/dd/manage/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/dd/manage/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/dd/manage/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/php_fpm/manage/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/php_fpm/manage/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/php_fpm/manage/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/owncloud/</loc>
+    <loc>https://gethugothemes.com/hugo/</loc>
     <lastmod>2018-12-29T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://gethugothemes.com/ja/owncloud/"
+                href="https://gethugothemes.com/ja/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://gethugothemes.com/fr/owncloud/"
+                href="https://gethugothemes.com/fr/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://gethugothemes.com/owncloud/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/clair-analysis-tool/payment/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/clair-analysis-tool/payment/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/clair-analysis-tool/payment/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/dd/payment/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/dd/payment/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/dd/payment/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/php_fpm/payment/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/php_fpm/payment/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/php_fpm/payment/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/mariadb/routing/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/mariadb/routing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/mariadb/routing/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/nginx/routing/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/nginx/routing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/nginx/routing/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/mariadb/ubuntu/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/mariadb/ubuntu/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/mariadb/ubuntu/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/nginx/ubuntu/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/nginx/ubuntu/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/nginx/ubuntu/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/clair-analysis-tool/profile/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/clair-analysis-tool/profile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/clair-analysis-tool/profile/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/dd/profile/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/dd/profile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/dd/profile/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/php_fpm/profile/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/php_fpm/profile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/php_fpm/profile/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/mariadb/windows/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/mariadb/windows/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/mariadb/windows/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/nginx/windows/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/nginx/windows/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/nginx/windows/"
+                href="https://gethugothemes.com/hugo/"
                 />
   </url>
   
@@ -659,6 +59,26 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://gethugothemes.com/wordpress/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gethugothemes.com/clair-analysis-tool/</loc>
+    <lastmod>2018-12-28T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gethugothemes.com/ja/clair-analysis-tool/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://gethugothemes.com/fr/clair-analysis-tool/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gethugothemes.com/clair-analysis-tool/"
                 />
   </url>
   
@@ -743,42 +163,22 @@
   </url>
   
   <url>
-    <loc>https://gethugothemes.com/clair-analysis-tool/</loc>
-    <lastmod>2018-10-28T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://gethugothemes.com/ja/clair-analysis-tool/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/clair-analysis-tool/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/clair-analysis-tool/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/php_fpm/</loc>
+    <loc>https://gethugothemes.com/phpfpm/</loc>
     <lastmod>2018-05-28T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://gethugothemes.com/ja/php_fpm/"
+                href="https://gethugothemes.com/ja/phpfpm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://gethugothemes.com/fr/php_fpm/"
+                href="https://gethugothemes.com/fr/phpfpm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://gethugothemes.com/php_fpm/"
+                href="https://gethugothemes.com/phpfpm/"
                 />
   </url>
   

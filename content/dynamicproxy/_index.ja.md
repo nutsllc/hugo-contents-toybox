@@ -1,16 +1,16 @@
 ---
-title: "Dynamic Proxy"
+title: "Dynamic Reverse Proxy"
 date: 2018-12-29T11:02:05+06:00
 icon: "ti-panel"
-description: "Dynamic proxy with SSL"
-description2: "(Nginx + Let's Encrypt + docker-gen)"
+description: "SSL対応リバースプロキシ"
+description2: ""
 type : "applications"
 ---
 
 ### INDEX
 
-- Overview
-- Quick start
+- 概要
+- クイックスタート
 
 Running Docker containers SSL dynamic proxy (Nginx).
 

@@ -163,99 +163,12 @@
     <div class="col-lg-8 text-center mx-auto">
     <h1 class="text-white mb-3">Nuts Toybox</h1>
     <p class="text-white mb-4">Easy and first to run variety of the Docker container</p>
-        <div class="position-relative">
-        <input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms">
         
-        <script>
-            $(function() {
-            var projects = [
-                
-                {
-                    value: "Dynamic Proxy",
-                    label: "Dynamic Proxy",
-                    url:"https:\/\/gethugothemes.com\/dynamicproxy\/"
-                },
-                
-                {
-                    value: "ownCloud",
-                    label: "ownCloud",
-                    url:"https:\/\/gethugothemes.com\/owncloud\/"
-                },
-                
-                {
-                    value: "WordPress",
-                    label: "WordPress",
-                    url:"https:\/\/gethugothemes.com\/wordpress\/"
-                },
-                
-                {
-                    value: "DD",
-                    label: "DD",
-                    url:"https:\/\/gethugothemes.com\/dd\/"
-                },
-                
-                {
-                    value: "Nginx",
-                    label: "Nginx",
-                    url:"https:\/\/gethugothemes.com\/nginx\/"
-                },
-                
-                {
-                    value: "Contact",
-                    label: "Contact",
-                    url:"https:\/\/gethugothemes.com\/contact\/"
-                },
-                
-                {
-                    value: "Frequently Asked Questions",
-                    label: "Frequently Asked Questions",
-                    url:"https:\/\/gethugothemes.com\/faq\/"
-                },
-                
-                {
-                    value: "Clair",
-                    label: "Clair",
-                    url:"https:\/\/gethugothemes.com\/clair-analysis-tool\/"
-                },
-                
-                {
-                    value: "PHP-FPM",
-                    label: "PHP-FPM",
-                    url:"https:\/\/gethugothemes.com\/php_fpm\/"
-                },
-                
-                {
-                    value: "MariaDB",
-                    label: "MariaDB",
-                    url:"https:\/\/gethugothemes.com\/mariadb\/"
-                },
-                
-            ];
-            $( "#search" ).autocomplete({
-                minLength: 0,
-                source: projects,
-                focus: function( event, ui ) {
-                    $( "#search" ).val( ui.item.label );
-                    return false;
-                },
-                select: function( event, ui ) {
-                    $( "#search" ).val( ui.item.label );
-                    $( "#project-id" ).val( ui.item.value );
-                    return false;
-                }
-            })
-            .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
-                return $( "<li>" )
-                .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.label + "</a>" )
-                .appendTo( ul );
-            };
-            });
-        </script>
-        </div>
     </div>
     </div>
 </div>
 <!-- /banner -->
+
   </header>
   <!-- /header -->
   
@@ -279,14 +192,16 @@
             <i class="ti-panel icon text-primary d-block mb-4"></i>
             <h3 class="mb-3 mt-0">Dynamic Proxy</h3>
             <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+            <p class="mb-0"></p>
           </a>
         </div>
         
         <div class="col-lg-4 col-sm-6 mb-4">
-          <a href="https://gethugothemes.com/owncloud/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
-            <i class="ti-cloud icon text-primary d-block mb-4"></i>
-            <h3 class="mb-3 mt-0">ownCloud</h3>
+          <a href="https://gethugothemes.com/hugo/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-wordpress icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">WordPress</h3>
             <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+            <p class="mb-0"></p>
           </a>
         </div>
         
@@ -295,6 +210,7 @@
             <i class="ti-wordpress icon text-primary d-block mb-4"></i>
             <h3 class="mb-3 mt-0">WordPress</h3>
             <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+            <p class="mb-0"></p>
           </a>
         </div>
         
@@ -313,7 +229,7 @@
         </div>
         
         <div class="col-lg-4 col-sm-6 mb-4">
-          <a href="https://gethugothemes.com/php_fpm/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+          <a href="https://gethugothemes.com/phpfpm/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
             <i class="ti-server icon text-primary d-block mb-4"></i>
             <h3 class="mb-3 mt-0">PHP-FPM</h3>
             <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
@@ -335,18 +251,18 @@
         </div>
         
         <div class="col-lg-4 col-sm-6 mb-4">
-          <a href="https://gethugothemes.com/dd/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
-            <i class="ti-credit-card icon text-primary d-block mb-4"></i>
-            <h3 class="mb-3 mt-0">DD</h3>
+          <a href="https://gethugothemes.com/clair-analysis-tool/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-eye icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Clair</h3>
             <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
           </a>
         </div>
         
         <div class="col-lg-4 col-sm-6 mb-4">
-          <a href="https://gethugothemes.com/clair-analysis-tool/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
-            <i class="ti-eye icon text-primary d-block mb-4"></i>
-            <h3 class="mb-3 mt-0">Clair</h3>
-            <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+          <a href="https://gethugothemes.com/dd/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-credit-card icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">DD</h3>
+            <p class="mb-0">Docker control tool</p>
           </a>
         </div>
         

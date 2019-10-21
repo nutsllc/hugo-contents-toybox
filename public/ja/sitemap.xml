@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gethugothemes.com/ja/dynamicproxy/overview/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gethugothemes.com/ja/hugo/overview/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gethugothemes.com/ja/wordpress/overview/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gethugothemes.com/ja/dynamicproxy/quickstart/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gethugothemes.com/ja/hugo/quickstart/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gethugothemes.com/ja/wordpress/quickstart/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gethugothemes.com/ja/wordpress/settings/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gethugothemes.com/ja/dynamicproxy/</loc>
     <lastmod>2018-12-29T11:02:05+06:00</lastmod>
     <xhtml:link
@@ -19,26 +54,6 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://gethugothemes.com/ja/dynamicproxy/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gethugothemes.com/ja/owncloud/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/owncloud/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/owncloud/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://gethugothemes.com/ja/owncloud/"
                 />
   </url>
   
@@ -163,22 +178,42 @@
   </url>
   
   <url>
-    <loc>https://gethugothemes.com/ja/php_fpm/</loc>
-    <lastmod>2018-05-28T11:02:05+06:00</lastmod>
+    <loc>https://gethugothemes.com/ja/hugo/</loc>
+    <lastmod>2018-06-29T11:02:05+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://gethugothemes.com/php_fpm/"
+                href="https://gethugothemes.com/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://gethugothemes.com/fr/php_fpm/"
+                href="https://gethugothemes.com/fr/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://gethugothemes.com/ja/php_fpm/"
+                href="https://gethugothemes.com/ja/hugo/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gethugothemes.com/ja/phpfpm/</loc>
+    <lastmod>2018-05-28T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gethugothemes.com/phpfpm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://gethugothemes.com/fr/phpfpm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gethugothemes.com/ja/phpfpm/"
                 />
   </url>
   
@@ -203,26 +238,6 @@
   </url>
   
   <url>
-    <loc>https://gethugothemes.com/ja/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gethugothemes.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://gethugothemes.com/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://gethugothemes.com/ja/"
-                />
-  </url>
-  
-  <url>
     <loc>https://gethugothemes.com/ja/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -238,6 +253,25 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://gethugothemes.com/ja/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gethugothemes.com/ja/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gethugothemes.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://gethugothemes.com/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gethugothemes.com/ja/"
                 />
   </url>
   
